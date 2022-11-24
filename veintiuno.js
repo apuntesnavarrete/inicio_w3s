@@ -17,4 +17,7 @@ let num_2 = Math.floor(Math.random() * 10);
 let num_3 = Math.floor(Math.random() * 10);
 
 
-console.log(`${num_1 ,num_2 , num_3`)
+console.log(`${num_1} ,num_2 , num_3`)
+
+
+//operadores logicos actuan como filtros
