@@ -3,15 +3,14 @@ let corte = texto.slice(5,8)
 
 console.log(corte)
 
-let nombres = ["juan","pedro","pablo"]
+//Ejercicio crea un correo electronico con los nombres
 
-console.log(nombres)
+let nombres = ["juan","pedro","pablo","felipe"]
+let correos = []
 
-nombre_1 = nombres[0].slice(0,4) + "@heroesfb.com"
-nombre_2 = nombres[1].slice(0,4) + "@heroesfb.com"
-nombre_3 = nombres[2].slice(0,4) + "@heroesfb.com"
+correos.push(nombres[0].slice(0,4) + "@heroesfb.com")
+correos.push(nombres[1].slice(0,4) + "@heroesfb.com")
+correos.push(nombres[2].slice(0,4) + "@heroesfb.com")
 
 
-console.log(nombre_1)
-console.log(nombre_2)
-console.log(nombre_3)
+console.log(correos)
