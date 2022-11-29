@@ -8,10 +8,9 @@ console.log(corte)
 let nombres = ["juan","pedro","pablo","felipe","jorge"]
 let correos = []
 
-i=0
-while(nombres.length > i){
+
+for(i=0; nombres.length > i ; i++ ){
     correos.push(nombres[i].slice(0,4) + "@heroesfb.com")
-    i++
 
 }
 
