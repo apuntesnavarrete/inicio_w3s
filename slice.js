@@ -5,12 +5,16 @@ console.log(corte)
 
 //Ejercicio crea un correo electronico con los nombres
 
-let nombres = ["juan","pedro","pablo","felipe"]
+let nombres = ["juan","pedro","pablo","felipe","jorge"]
 let correos = []
 
-correos.push(nombres[0].slice(0,4) + "@heroesfb.com")
-correos.push(nombres[1].slice(0,4) + "@heroesfb.com")
-correos.push(nombres[2].slice(0,4) + "@heroesfb.com")
+i=0
+while(nombres.length > i){
+    correos.push(nombres[i].slice(0,4) + "@heroesfb.com")
+    i++
 
+}
 
 console.log(correos)
+
+//Mejora si hay 2 nombre iguales agregarle a uno numeros.
