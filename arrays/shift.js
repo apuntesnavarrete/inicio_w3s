@@ -24,6 +24,5 @@ for(i=0; i < eliminar_fruits.length; i ){
 
 }
 
-setTimeout(function(){
-    console.log("Hola Mundo");
-}, 5000);
+
+// con el boton , eliminar elementos del array y actualizarlo en pantalla
