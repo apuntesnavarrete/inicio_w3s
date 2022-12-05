@@ -1,12 +1,12 @@
-const numbers = [45, 4, 9, 16, 25];
+const numbers = [45, 4, 9, 16, 25,23];
 console.log(numbers)
-numbers.filter(myFunction);
+const number_filter = numbers.filter(myFunction);
 
+console.log(number_filter)
 
 
 
 
 function myFunction(value, index, array) {
-  console.log(value)
-  console.log(index)
+ return value > 18 * 1.5
 }
