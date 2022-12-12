@@ -6,11 +6,13 @@ for(let number of numbers) {
   console.log(number)
 }
 */
-for(let number in numbers) {
+for(let index in numbers) {
   console.log("El id a imprimir es")
-  console.log(number)
+  console.log(index)
   console.log("El Numero a imprimir es")
 
-  console.log(numbers[number])
+  console.log(numbers[index])
 
 }
+
+numbers.forEach(nombre=>console.log(nombre + " foreach"))
